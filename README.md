@@ -78,3 +78,7 @@ Visual odometry(VO) is the process of determining the position and orientation o
 
 ### 3D-2D Motion Estimation with multiframe tracking approch:
 * #### [reference paper](https://drive.google.com/file/d/1bUY6J3cVjFasmzbn-B5wp4dWOq0SxHR-/view?usp=sharing)
+
+### Contributors: 
+* [Sushlok Shah](https://github.com/sushlokshah)
+
