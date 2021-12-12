@@ -1,7 +1,7 @@
 # Visual Odometry
 ## Introduction:
 Visual odometry(VO) is the process of determining the position and orientation of a robot by analyzing the associated camera images. The project is designed to estimate the motion of calibrated camera mounted over a mobile platform. Motion is estimated by computing the feature points of the image and determining the relative translation and rotation of the images.
-## basic pipeline:
+## Basic Pipeline:
 ![](https://i.imgur.com/BElBW2r.png)
 1. Image sequences 
 2. Feature Detection 
@@ -37,7 +37,7 @@ Visual odometry(VO) is the process of determining the position and orientation o
 * #### Result:
 |kitti datset 0| kitti datset 5|
 | -------- | -------- |
-|<img src="https://i.imgur.com/mI8q0I4.png,'KITTI00'" width="400">|<img src="https://i.imgur.com/gwUVimu.png,'KITTI05'" width="400">|
+|<img src="https://i.imgur.com/mI8q0I4.png,'KITTI00'" width="500">|<img src="https://i.imgur.com/gwUVimu.png,'KITTI05'" width="500">|
 
 
 ### 2D-2D Motion Estimation(Feature tracking):
@@ -53,7 +53,7 @@ Visual odometry(VO) is the process of determining the position and orientation o
 * #### Result :
 |kitti datset 0|kitti datset 5|
 | -------- | -------- |
-|<img src="https://i.imgur.com/cJazgV7.png,'KITTI05'" width="400">|<img src="https://i.imgur.com/ngGhfn3.png,'KITTI00'" width="400">|
+|<img src="https://i.imgur.com/cJazgV7.png,'KITTI05'" width="500">|<img src="https://i.imgur.com/ngGhfn3.png,'KITTI00'" width="500">|
 
 
 * #### improvements: 
@@ -73,7 +73,7 @@ Visual odometry(VO) is the process of determining the position and orientation o
 * kitti datset 0
    |Result|Error|
    | -------- | -------- |
-   |<img src="https://i.imgur.com/Hg1WeSS.png" width="400">|<img src="https://i.imgur.com/ILq5pMi.png" width="400">|
+   |<img src="https://i.imgur.com/Hg1WeSS.png" width="500">|<img src="https://i.imgur.com/ILq5pMi.png" width="500">|
 
 ### 3D-2D Motion Estimation with multiframe tracking approch:
 * #### [reference paper](https://drive.google.com/file/d/1bUY6J3cVjFasmzbn-B5wp4dWOq0SxHR-/view?usp=sharing)
