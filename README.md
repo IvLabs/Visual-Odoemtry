@@ -48,7 +48,7 @@ Visual odometry(VO) is the process of determining the position and orientation o
     3) Calculate tracked features calculate essential, rotation matrix, translation matrix, and relative scale between images as explained above.
     4) Track features in the next frames and concatenates transformation.
     5) Update the reference frame when a sufficient number of features were not tracked and repeat the process.
-    6) [2D-2D Feature tracking Approch code](https://github.com/sushlokshah/visual-odometry/blob/main/2d-2d/V0_optflow(2-2).py)
+    6) [2D-2D Feature tracking Approch code](https://github.com/IvLabs/Visual-Odoemtry/blob/main/2d-2d/V0_optflow(2-2).py)
 
 * #### Result :
 |kitti datset 0|kitti datset 5|
