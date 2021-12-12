@@ -35,11 +35,9 @@ Visual odometry(VO) is the process of determining the position and orientation o
     * use feature tracking methods instead of feature matching and using fast feature extranction method which we used in the next Approch 2D-2D Motion Estimation(Feature tracking)
 
 * #### Result:
-* ##### kitti datset 0:
-<img src="https://i.imgur.com/mI8q0I4.png,'KITTI00'" width="400">
-
-* ##### kitti datset 5:
-<img src="https://i.imgur.com/gwUVimu.png,'KITTI05'" width="400">
+|kitti datset 0| kitti datset 5|
+| -------- | -------- |
+|<img src="https://i.imgur.com/mI8q0I4.png,'KITTI00'" width="400">|<img src="https://i.imgur.com/gwUVimu.png,'KITTI05'" width="400">|
 
 
 ### 2D-2D Motion Estimation(Feature tracking):
@@ -53,10 +51,9 @@ Visual odometry(VO) is the process of determining the position and orientation o
     6) [2D-2D Feature tracking Approch code](https://github.com/sushlokshah/visual-odometry/blob/main/2d-2d/V0_optflow(2-2).py)
 
 * #### Result :
-* ##### kitti datset 0:
-<img src="https://i.imgur.com/cJazgV7.png,'KITTI05'" width="400">
-* ##### kitti datset 5:
-<img src="https://i.imgur.com/ngGhfn3.png,'KITTI00'" width="400">
+|kitti datset 0|kitti datset 5|
+| -------- | -------- |
+|<img src="https://i.imgur.com/cJazgV7.png,'KITTI05'" width="400">|<img src="https://i.imgur.com/ngGhfn3.png,'KITTI00'" width="400">|
 
 
 * #### improvements: 
@@ -73,8 +70,10 @@ Visual odometry(VO) is the process of determining the position and orientation o
     6. [3D-2D implementation code](https://github.com/sushlokshah/visual-odometry/blob/main/3d-2d/final_pnp.ipynb)
 
 * #### Result:
-![](https://i.imgur.com/Hg1WeSS.png)
-
+* kitti datset 0
+|Result|Error|
+| -------- | -------- |
+|<img src="https://i.imgur.com/Hg1WeSS.png" width="400">|<img src="https://i.imgur.com/ILq5pMi.png" width="400">|
 
 ### 3D-2D Motion Estimation with multiframe tracking approch:
 * #### [reference paper](https://drive.google.com/file/d/1bUY6J3cVjFasmzbn-B5wp4dWOq0SxHR-/view?usp=sharing)
